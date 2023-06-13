@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR==3' iacta
+grep -n '' iacta | grep -E '^3:' | cut -d: -f2-
